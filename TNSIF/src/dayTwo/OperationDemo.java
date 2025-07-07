@@ -7,7 +7,7 @@ public class OperationDemo {
 		
 		int a=10;
 		int b=20;
-		int x=10;
+		//int x=10;
 		
 		System.out.println("A and B value before the operator : "
 		+ a + " "+ b);
