@@ -6,8 +6,7 @@ public class SBI extends RBI {
 	public float getRateofInterest()
 	{
 		System.out.println("Base Rate of Interest for Home loan");
-		
-		return 7.0f;
+		return 6.7f;
 		
 	}
 
