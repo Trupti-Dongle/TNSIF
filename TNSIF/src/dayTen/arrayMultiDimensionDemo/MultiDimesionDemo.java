@@ -1,4 +1,4 @@
-package dayTen.arrayMultiDimesionDemo;
+package dayTen.arrayMultiDimensionDemo;
 
 
 class MLArray
