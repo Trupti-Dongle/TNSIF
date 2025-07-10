@@ -12,7 +12,7 @@ class ArrayOperations
 		}
 	}
 	
-	//varible argument function
+	//variable argument function
 	
 	public static int getSum(int... n)
 	{
@@ -35,7 +35,7 @@ class ArrayOperations
 		return count;
 	}
 	
-	//count no. even elemnts 
+	//count no. even elements 
 	public static int getEvenCount(int b[])
 	{
 		return b.length-getOddCount(b);
@@ -54,7 +54,7 @@ public class ArrayDemoOne {
 		//displaying the array 
 		ArrayOperations.printArray(a);
 		
-		//assigning va;ues in array a
+		//assigning values in array a
 		for(int i=0; i<a.length; i++)
 		{
 			a[i]=5*i;
@@ -65,11 +65,11 @@ public class ArrayDemoOne {
 		int b[] = {10,20,30,40,50}; // initialization at the time of declaration 
 		ArrayOperations.printArray(b);
 		
-		//calling of varibles argument function 
+		//calling of variables argument function 
 		System.out.println("Sum of array elements is :"+ ArrayOperations.getSum(b));
 		System.out.println("Sum of array elements is : "+ ArrayOperations.getSum(10,20,30,40,60,80));
 		
-		b[2]= 999; //assigning single elements
+		b[2]= 929; //assigning single elements
 		
 		ArrayOperations.printArray(b);
 		
