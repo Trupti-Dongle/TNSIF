@@ -17,7 +17,7 @@ public class Childthread extends Thread{
 		for(int i=1; i<n; i++)
 		{
 			try {
-				Thread.sleep(2);
+				Thread.sleep(2000);
 			}
 			catch(InterruptedException e)
 			{
