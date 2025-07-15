@@ -1,4 +1,4 @@
-package dayFourteen.listDemo;
+package dayFourteen.queueDemo;
 
 import java.util.Iterator;
 import java.util.LinkedList;
