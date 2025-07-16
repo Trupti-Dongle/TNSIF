@@ -4,7 +4,8 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.Statement;
 
-public class JDBCTable {
+public class UpdateQuery {
+	
 
 	public static void main(String[] args) {
 		
@@ -25,11 +26,12 @@ public class JDBCTable {
 			
 			//step 4: write a query
 			
-//			String q="create table student(stdid int, name varchar(20), subject varchar(20), duration double)";
-//			String q="insert into student value(101, 'zeel', 'HTML', 66.67)";
-			String q="insert into student value(102, 'Heti', 'CSS', 48.29)";
-//			alter
-//			String q = "alter table student add primary key(stdid)";
+
+//			String q="insert into student value(103, 'Heti', 'CSS', 48.29)";
+			
+			String q ="Update student set subject='JS' where stdid =103";
+
+			
 			
 			int s=stmt.executeUpdate(q);
 		}
@@ -41,3 +43,5 @@ public class JDBCTable {
 	}
 
 }
+
+
